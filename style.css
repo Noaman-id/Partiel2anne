@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+}
+
+.Page1{
+    width: 99vw;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    height: 150px;
+    justify-self: center;
+    background-color: white;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 15px;
+    width: 100px;
+    display: flex;
+    height: 15px;
+    gap: 25px;
+}
+
+.shoe{
+    width: 35px;
+    height: 25px;
+    justify-self: center;
+    align-self: center;
+}
+
+.mid{
+    background-color: #F22735   ;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo{
+    width: 150px    ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.txt{
+    color: #F22735;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 10px;
+}
+
+.image{
+    width: 20px;
+    height: 20px;
+}
+
+.upHeader{
+    display: flex ;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.theline{
+    margin-top: 30px;
+    width: 100%;
+    border: 1px solid #dadada;
+}
+
+.main1{
+    background-color: #E7E8E9;
+    height: 100%;
+}
+
+.log{
+    margin-top: 15px;
+    height: fit-content;
+    width: 150px;
+    display: flex;
+    height: 17px;
+    display: flex;
+    gap: 25px;
+}
+
+.downHeader{
+    height: 100%;
+    width: 50%;
+    color: black;
+    display: flex;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+.ar{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 7px;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+.red{
+    color: red;
+}
+
+.shop{
+    display: flex;
+}
+
+.pro{
+    display: flex;
+}
+
+.main1{
+    width: 100%;
+    height: 70vh;
+}
+
+.bigshoe{
+    width: 700px;
+    height: 600px;
+    margin-right: -30px;
+}
+
+.all{
+    width: 90%;
+    justify-self: center;
+    display: flex;
+    margin-right: -70px;
+}
+
+.text{
+    margin-right: -20px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.yap{
+    width: 100%;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.para{
+    color: #504E4A;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.redbutton{
+    background-color: #F22735;
+    color: white;
+    width: 170px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
