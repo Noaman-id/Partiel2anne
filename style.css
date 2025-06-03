@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    max-width: 100%;
     overflow-x: hidden;
     font-family: "DM Sans", sans-serif;
 }
@@ -863,6 +864,10 @@ body{
     gap: 10px;
 }
 
+.logo:hover{
+    cursor: pointer;
+}
+
 .mail{
     display: flex;
     gap: 10px;
@@ -904,3 +909,123 @@ body{
     width: 35px;
     height: 30px;
 }
+
+.shiroi{
+    background: rgb(53, 52, 50);
+    transition: 0.3s ease-in-out;
+}
+
+.header.shiroi-header{
+    background-color: rgb(53, 52, 50);
+    transition: 0.3s ease-in-out;
+}
+
+.main1.shiroi-main1{
+    background-color: rgb(53, 52, 50);
+    transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .ava{
+        margin-left: 50px;
+    }
+
+    .name{
+        margin-left: 50px;
+    }
+
+    .desc{
+        margin-left: 50px;
+        text-align: center;
+    }
+
+    .para{
+        text-align: center;
+    }
+
+    .titre{
+        margin-left: 50 px;
+        width: 500px;
+    }
+
+    .main2{
+        width: 500px;
+    }
+
+    .parag1{
+        margin-top: 300px;
+        width: 150px;
+        text-align: center;
+    }
+
+    .upHeader{
+        display: none;
+    }
+
+    .tit1{
+        display: none;
+    }
+
+    .all1{
+        display: none;
+    }
+
+    .t1{
+        display: none;
+    }
+
+    .main5{
+        display: none;
+    }
+
+    .downHeader {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-left: -120px;
+    }
+
+    .reddd{
+        display: none;
+    }
+
+    .logo,
+    .icons,
+    .log {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    .parag{
+        width: 300px;
+        margin: 0px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+
+    .end{
+        display: none;
+    }
+
+    .endend{
+        display: none;
+    }
+
+    .t8{
+        box-shadow: none;
+    }
+
+ }
